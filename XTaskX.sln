@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTask", "XTask\XTask.csproj", "{2BD667B4-CDEC-45A5-B692-955ED4EDE705}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTasks6", "XTasks6\XTasks6.csproj", "{A6ADD168-AADB-4DED-8449-EFFBA4CB3027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTask10", "XTask10\XTask10.csproj", "{44460429-D047-49C9-B890-CE751CF5DB20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2BD667B4-CDEC-45A5-B692-955ED4EDE705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BD667B4-CDEC-45A5-B692-955ED4EDE705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BD667B4-CDEC-45A5-B692-955ED4EDE705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ADD168-AADB-4DED-8449-EFFBA4CB3027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ADD168-AADB-4DED-8449-EFFBA4CB3027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ADD168-AADB-4DED-8449-EFFBA4CB3027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ADD168-AADB-4DED-8449-EFFBA4CB3027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44460429-D047-49C9-B890-CE751CF5DB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44460429-D047-49C9-B890-CE751CF5DB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44460429-D047-49C9-B890-CE751CF5DB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44460429-D047-49C9-B890-CE751CF5DB20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
