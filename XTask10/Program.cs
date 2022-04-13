@@ -30,6 +30,13 @@ namespace XTask10
                     Console.ReadKey();
                 }
             // 16. Найти сумму нечетных элементов массива
+            int sum = 0;
+            for (int i = 0; i < x.Length; i++)
+                if (x[i] % 2 == 1)
+                {
+                    sum += x[i];
+                    Console.WriteLine("Сумма нечетных элементов массива: " + sum);
+                }    
 
         }
     }
