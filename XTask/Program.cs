@@ -6,7 +6,8 @@ namespace XTask
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int one = 1;
+            double two = 0.2;
         }
     }
 }
