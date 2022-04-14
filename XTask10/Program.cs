@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace XTask10
 {
@@ -36,7 +39,29 @@ namespace XTask10
                 {
                     sum += x[i];
                     Console.WriteLine("Сумма нечетных элементов массива: " + sum);
-                }    
+                }
+            // 17. Удалить последний элемент массива
+            int[] mas = { 1, 2, 4, 5, 6, 7 };
+            Console.WriteLine(string.Join("", mas));
+            int min = 0; int max = 0;
+            for (int i = 0; i < mas.Length; i++)
+            {
+                if (mas[max] < mas[i])
+                    max = i;
+                if (mas[min] > mas[i])
+                    min = i;
+            }
+            int m = mas[min];
+            mas[min] = mas[max];
+            mas[max] = m;
+            Console.WriteLine(string.Join("", mas));
+            (mas[max], mas[min]) = (mas[min], mas[max]);
+            int maxIndex = mas.ToList().IndexOf(mas.Max());
+            int minIndex = mas.ToList().IndexOf(mas.Min());
+            (mas[maxIndex], mas[minIndex]) = (mas[minIndex], mas[maxIndex]);
+            Console.WriteLine(string.Join("", mas));
+            Console.ReadKey();
+            // 18. Поменять местами минимальный и максимальный элементы массива не используя методы и лямбда функции
 
         }
     }
